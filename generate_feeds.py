@@ -50,8 +50,9 @@ META_COLUMNS = [
 class DeliverectClient:
     """Reads the public menu API that the Deliverect ordering site uses."""
 
-    def __init__(self, brand, timeout=30, retries=3):
+    def __init__(self, brand, lang=None, timeout=30, retries=3):
         self.brand = brand
+        self.lang = lang  # e.g. "ar": the menu API returns translated names/descriptions
         self.base = f"https://{brand['domain']}/api/dbe-proxy/"
         self.timeout = timeout
         self.retries = retries
@@ -63,8 +64,10 @@ class DeliverectClient:
         last = None
         for attempt in range(self.retries):
             try:
-                req = urllib.request.Request(
-                    url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
+                headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
+                if self.lang:
+                    headers["Accept-Language"] = self.lang
+                req = urllib.request.Request(url, headers=headers)
                 with urllib.request.urlopen(req, timeout=self.timeout) as resp:
                     return json.load(resp)
             except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
@@ -103,8 +106,9 @@ class DeliverectClient:
 class FixtureClient:
     """Offline stand-in that serves saved API responses (for testing)."""
 
-    def __init__(self, fixture):
+    def __init__(self, fixture, lang=None):
         self.f = fixture
+        self.lang = lang
 
     def list_outlets(self):
         return [{"slug": s, "name": v["outlet"]["name"]} for s, v in self.f.items()]
@@ -119,7 +123,8 @@ class FixtureClient:
         return self._by_id(outlet_id)["menus"]["data"]
 
     def menu(self, outlet_id, menu_slug):
-        return self._by_id(outlet_id)["menu"]
+        v = self._by_id(outlet_id)
+        return v.get(f"menu_{self.lang}") or v["menu"]
 
 
 # --------------------------------------------------------------------------
@@ -132,7 +137,7 @@ def collect(brand, client, log):
     preferred = brand.get("link_outlet_slug")
     outlets.sort(key=lambda o: 0 if o.get("slug") == preferred else 1)
 
-    products, warnings, branches_ok = {}, [], 0
+    products, warnings, branches_ok, menus_read = {}, [], 0, []
     for o in outlets:
         slug = o["slug"]
         try:
@@ -143,6 +148,7 @@ def collect(brand, client, log):
             for m in client.menus(full["id"]):
                 menu = client.menu(full["id"], m["slug"])
                 _merge_menu(products, menu, slug, full.get("name", slug), warnings)
+                menus_read.append((full["id"], m["slug"]))
             branches_ok += 1
         except Exception as e:  # one broken branch must not kill the feed
             warnings.append(f"Branch failed and was skipped: {o.get('name', slug)} ({e})")
@@ -151,7 +157,20 @@ def collect(brand, client, log):
     if branches_ok == 0:
         raise RuntimeError("Could not read any branch menu. Feed NOT updated.")
     log(f"  read {branches_ok}/{len(outlets)} branches, {len(products)} unique products")
-    return products, warnings, branches_ok, len(outlets)
+    return products, warnings, branches_ok, len(outlets), menus_read
+
+
+def collect_texts(client, menus_read):
+    """Translated name/description per item id, from the same menus in another language."""
+    texts = {}
+    for outlet_id, menu_slug in menus_read:
+        menu = client.menu(outlet_id, menu_slug)
+        for cat in menu.get("categories") or []:
+            for it in cat.get("items") or []:
+                if it["id"] not in texts:
+                    texts[it["id"]] = {"name": (it.get("name") or "").strip(),
+                                       "description": (it.get("description") or "").strip()}
+    return texts
 
 
 def _merge_menu(products, menu, outlet_slug, outlet_name, warnings):
@@ -159,6 +178,9 @@ def _merge_menu(products, menu, outlet_slug, outlet_name, warnings):
         for it in cat.get("items") or []:
             if it.get("type") not in (None, "product"):
                 continue
+            # Feed id = Deliverect menu item id. This is the id the ordering site pushes to
+            # the dataLayer (view_item / add_to_cart), which the Meta pixel and Google tags
+            # send as content_ids / item_id, so catalogue and ad events match.
             key = it["id"]
             price = (it.get("price") or {})
             p = products.get(key)
@@ -244,14 +266,26 @@ def keyword_matcher(keywords):
     return match
 
 
-def build_rows(brand, products, overrides, utm, global_keywords=()):
+FALLBACK_DESC = {
+    "en": "{title} from the {brand} {category} menu.",
+    "ar": "{title} من قائمة {brand}.",
+}
+
+
+def build_rows(brand, products, overrides, utm, global_keywords=(), lang="en", texts=None):
+    """Feed rows. Which products are in (exclusions, keywords) is always decided on the
+    English data, so every language version holds exactly the same products and ids.
+    `texts` (another language) only swaps the title and description."""
     rows, excluded = [], []
     excluded_keyword = keyword_matcher(
         list(global_keywords) + brand.get("exclude_name_keywords", []))
     exclude_cats = {c.lower() for c in brand.get("exclude_categories", [])}
     new_cats = {c.lower() for c in brand.get("new_categories", [])}
     bev_cats = {c.lower() for c in brand.get("beverage_categories", [])}
-    tagline = brand.get("tagline", "").strip()
+    primary = lang == "en" or not texts
+    tagline = (brand.get("tagline", "") if primary
+               else brand.get(f"tagline_{lang}", "")).strip()
+    brand_name_local = brand["brand"] if primary else brand.get(f"brand_{lang}", brand["brand"])
 
     for p in sorted(products.values(), key=lambda x: (x["category"], x["name"])):
         title = clean_title(p["name"])
@@ -270,12 +304,20 @@ def build_rows(brand, products, overrides, utm, global_keywords=()):
             excluded.append(f"{title} (missing price or photo)")
             continue
 
-        title = (ov.get("title") or title)[:150]
-        desc = ov.get("description") or p["description"]
+        if primary:
+            title = (ov.get("title") or title)[:150]
+            desc = ov.get("description") or p["description"]
+        else:
+            t = texts.get(p["key"]) or {}
+            title = (ov.get(f"title_{lang}") or clean_title(t.get("name") or "") or title)[:150]
+            desc = ov.get(f"description_{lang}") or t.get("description") or ""
         if desc:
+            sep = "، " if lang == "ar" and not primary else ", "
+            desc = re.sub(r"\s*\n+\s*", sep, desc.strip())  # line-per-item lists -> commas
             desc = re.sub(r"\s+", " ", desc).strip().rstrip(".") + "."
         else:
-            desc = f"{title} from the {brand['brand']} {p['category']} menu."
+            desc = FALLBACK_DESC.get(lang if not primary else "en", FALLBACK_DESC["en"]).format(
+                title=title, brand=brand_name_local, category=p["category"])
         if tagline:
             desc = f"{desc} {tagline}"
 
@@ -356,6 +398,19 @@ def render_meta_csv(rows):
     return out.getvalue()
 
 
+def render_meta_language_csv(rows, override):
+    """Meta language override feed: adds e.g. Arabic titles/descriptions to the SAME
+    catalogue items (matched by id), so one catalogue serves both languages."""
+    out = io.StringIO()
+    w = csv.DictWriter(out, fieldnames=["id", "override", "title", "description"],
+                       lineterminator="\n")
+    w.writeheader()
+    for r in rows:
+        w.writerow({"id": r["id"], "override": override,
+                    "title": r["title"], "description": r["description"]})
+    return out.getvalue()
+
+
 # --------------------------------------------------------------------------
 # Change tracking + safety guard
 # --------------------------------------------------------------------------
@@ -405,11 +460,12 @@ def write_changelog(out_dir, stamp, changes, total):
 
 
 # --------------------------------------------------------------------------
-def run_brand(brand, cfg, client, out_root, log):
+def run_brand(brand, cfg, make_client, out_root, log):
     log(f"[{brand['key']}] {brand['brand']} - {brand['domain']}")
-    products, warnings, ok, total = collect(brand, client, log)
-    rows, excluded = build_rows(brand, products, load_overrides(brand["key"]), cfg.get("utm", {}),
-                                cfg.get("exclude_name_keywords", []))
+    products, warnings, ok, total, menus_read = collect(brand, make_client(None), log)
+    overrides = load_overrides(brand["key"])
+    utm, keywords = cfg.get("utm", {}), cfg.get("exclude_name_keywords", [])
+    rows, excluded = build_rows(brand, products, overrides, utm, keywords)
     if not rows:
         raise RuntimeError("No products to publish. Feed NOT updated.")
 
@@ -428,7 +484,30 @@ def run_brand(brand, cfg, client, out_root, log):
         f.write(render_google_xml(brand, rows))
     with open(os.path.join(out_dir, "meta.csv"), "w", encoding="utf-8", newline="") as f:
         f.write(render_meta_csv(rows))
+
+    # Extra languages (e.g. Arabic for KSA): same products and ids, translated text.
+    languages_written = ["en"]
+    for lang in brand.get("extra_languages", []):
+        try:
+            texts = collect_texts(make_client(lang), menus_read)
+            lrows, _ = build_rows(brand, products, overrides, utm, keywords, lang=lang, texts=texts)
+            missing = sum(1 for r in lrows if r["id"] not in texts)
+            if missing:
+                warnings.append(f"{lang}: {missing} products had no translation (English used)")
+            with open(os.path.join(out_dir, f"google_{lang}.xml"), "w", encoding="utf-8") as f:
+                f.write(render_google_xml(brand, lrows))
+            with open(os.path.join(out_dir, f"meta_{lang}.csv"), "w", encoding="utf-8",
+                      newline="") as f:
+                f.write(render_meta_language_csv(
+                    lrows, brand.get(f"meta_override_{lang}", f"{lang}_XX")))
+            languages_written.append(lang)
+            log(f"  wrote {lang} feeds ({len(lrows)} products)")
+        except Exception as e:  # a failed translation keeps last month's files
+            warnings.append(f"{lang} feeds not updated: {e}")
+            log(f"  ! {lang} feeds not updated: {e}")
+
     report = {
+        "languages": languages_written,
         "brand": brand["brand"], "generated_at": stamp,
         "branches_read": f"{ok}/{total}", "products": len(rows),
         "in_stock": sum(r["in_stock"] for r in rows),
@@ -465,9 +544,12 @@ def main():
 
     failed = []
     for b in brands:
-        client = FixtureClient(fixture[b["key"]]) if fixture else DeliverectClient(b)
+        if fixture:
+            make_client = lambda lang, b=b: FixtureClient(fixture[b["key"]], lang)
+        else:
+            make_client = lambda lang, b=b: DeliverectClient(b, lang)
         try:
-            run_brand(b, cfg, client, args.out, print)
+            run_brand(b, cfg, make_client, args.out, print)
         except Exception as e:
             print(f"  ERROR [{b['key']}]: {e}", file=sys.stderr)
             failed.append(b["key"])
