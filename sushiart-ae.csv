@@ -1,0 +1,7 @@
+match,title,description,image_link,exclude
+# One row per product you want to change. "match" = the product id (from meta.csv) or its exact name.,,,,
+# Leave a column empty to keep the value from the ordering site. exclude = yes removes it from both feeds.,,,,
+# exclude = no keeps an item that the exclude_name_keywords list in config.json would otherwise remove.,,,,
+# Examples (delete the # to use):,,,,
+# Coconut Water 330ml,,,,yes
+# Plain Rice,,"Steamed Japanese sushi rice, the perfect side for any Sushi Art order.",,

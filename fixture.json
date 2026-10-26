@@ -1,0 +1,37 @@
+{
+  "sushiart-ae": {
+    "693694883e311f2db404b740": {
+      "outlet": {"id": "a08ae860-6afc-44e7-88a6-96d0822cb616", "slug": "693694883e311f2db404b740", "name": "Sushi Art - Dubai Hills", "operationalState": "open", "settings": {"isEnabled": true}},
+      "menus": {"data": [{"id": "69831b9f0063bf0c8ec80a75", "name": "Sushi Art", "slug": "69831b9f0063bf0c8ec80a75"}]},
+      "menu": {"id": "69831b9f0063bf0c8ec80a75", "slug": "69831b9f0063bf0c8ec80a75", "categories": [
+        {"name": "Happy Sushi Box", "items": [
+          {"id": "6aa2b2aa1ebb363d5d72ff86", "plu": "6977826d768a7c63b551d28d", "name": "Happy Sushi Box - 18 Pieces", "type": "product", "price": {"value": 7100, "currency": "AED"}, "description": "3 Cucumber Avocado Roll, 3 Crispy Kani Roll, 3 Salmon Roll Maki, 3 Shrimp tempura Roll, 3 Spicy Tuna Maki, 2 Salmon Sushi, 1 Tuna Sushi", "photo": "https://deliverect-resizer.imgix.net/70Cx_RCyuIbgSm8xffeyRRVjeHUSdXH5EjeKbFNuAGc/rt:fill/g:ce/el:0/cb:41005e6729b14143a7", "inStock": true, "consumableTags": []},
+          {"id": "6aa2b2aa1ebb363d5d72ffa8", "plu": "68f34f1d9aedda706b7236d8", "name": "Happy Sushi Box - 42 Pieces", "type": "product", "price": {"value": 13100, "currency": "AED"}, "description": "2 Tuna Sushi, 4 Salmon Sushi, 6 Salmon Roll Maki, 6 Shrimp Tempura Roll , 6 Cucumber Avocado Roll , 6 Crispy Kani Roll , 6 Avocado Maki, 6 Spicy Tuna Maki", "photo": "https://deliverect-resizer.imgix.net/xvankk9SYuYMUGd_FYZ_iBa3CpZOe3iGB6Bhv8AZCOg/rt:fill/g:ce/el:0/cb:41005e6729b14143a7", "inStock": false, "consumableTags": []}
+        ]},
+        {"name": "New On The Menu", "items": [
+          {"id": "697c2403701b30d8aa37413a", "plu": "6973111f91771870fdbba7b0", "name": "Shoyu Beef Ramen", "type": "product", "price": {"value": 6900, "currency": "AED"}, "description": "Beef Tenderloin, Egg, Shoyu Broth, Noodle, Mushroom, Pak Choy, Spring Onion, Bean Sprout, Coriander, Nori", "photo": "https://deliverect-resizer.imgix.net/wDLDRVQ55DMQACUGH5QxaReyHE-7CcStbzglOFJ7NGc/rt:fill/g:ce/el:0/cb:41005e6729b14143a7", "inStock": true, "consumableTags": []}
+        ]},
+        {"name": "Starters", "items": [
+          {"id": "697c2403701b30d8aa373bc0", "plu": "68389f8b20973e1ca848022e", "name": "Chicken Gyoza - 5 Pieces", "type": "product", "price": {"value": 3500, "currency": "AED"}, "description": "Gyoza Wrapper, Chicken, Cabbage, Leek, Onion, Garlic, Ginger, Chives, Signature Gyoza Sauce", "photo": "https://deliverect-resizer.imgix.net/BvOihrU26CGabUACz-7q51SFXBftdUYTvSi0KaIczz4/rt:fill/g:ce/el:0/cb:41005e6729b14143a7", "inStock": true, "consumableTags": []},
+          {"id": "696c327c90b8ec03c3bd4243", "plu": "69690f6995f6d02cc2bde185", "name": "Edamame", "type": "product", "price": {"value": 2300, "currency": "AED"}, "description": "Rock Salt", "photo": "https://deliverect-resizer.imgix.net/bA7OFldPA89xBl9EzYrR8mJ2gs8P-jGRnvMPZb8hViI/rt:fill/g:ce/el:0/cb:41005e6729b14143a7", "inStock": true, "consumableTags": [{"key": "vegetarian", "name": null}]}
+        ]},
+        {"name": "Drinks", "items": [
+          {"id": "6a74486c14e7f6f6d36bf7d2", "plu": "68f34f1da94cf805e08f59a9", "name": "Coconut Water 330ml", "type": "product", "price": {"value": 3600, "currency": "AED"}, "description": "", "photo": "https://deliverect-resizer.imgix.net/0ReUE4Wx-cdLSP6A-1cmP9TufBGYTvYdPk16a7Q5498/rt:fill/g:ce/el:0/cb:41005e6729b14143a7", "inStock": true, "consumableTags": [{"key": "vegetarian", "name": null}]},
+          {"id": "6a74486c14e7f6f6d36bf7aa", "plu": "68389f8c00000000000000aa", "name": "FRESH ORANGE JUICE", "type": "product", "price": {"value": 2400, "currency": "AED"}, "description": "", "photo": "https://deliverect-resizer.imgix.net/sample-orange/rt:fill/g:ce/el:0/cb:41005e6729b14143a7", "inStock": true, "consumableTags": [{"key": "vegetarian", "name": null}]}
+        ]}
+      ]}
+    },
+    "693bcb519d9a854bded179aa": {
+      "outlet": {"id": "a092dd19-1a95-45e0-9acf-a8ed9dbffabc", "slug": "693bcb519d9a854bded179aa", "name": "Sushi Art - Media City", "operationalState": "open", "settings": {"isEnabled": true}},
+      "menus": {"data": [{"id": "69831b9f0063bf0c8ec80a75", "name": "Sushi Art", "slug": "69831b9f0063bf0c8ec80a75"}]},
+      "menu": {"id": "69831b9f0063bf0c8ec80a75", "slug": "69831b9f0063bf0c8ec80a75", "categories": [
+        {"name": "Happy Sushi Box", "items": [
+          {"id": "6aa2b2aa1ebb363d5d72ffa8", "plu": "68f34f1d9aedda706b7236d8", "name": "Happy Sushi Box - 42 Pieces", "type": "product", "price": {"value": 13100, "currency": "AED"}, "description": "2 Tuna Sushi, 4 Salmon Sushi, 6 Salmon Roll Maki", "photo": "https://deliverect-resizer.imgix.net/Thejlm4P9qgp535zEkqagqXhti_8In-XdgzN-Hf5Cis/rt:fill/g:ce/el:0/cb:fc0092ba17d94a4fa9", "inStock": true, "consumableTags": []}
+        ]},
+        {"name": "Starters", "items": [
+          {"id": "697c2403701b30d8aa373bc6", "plu": "68389f8c8b174464632affe1", "name": "Shrimp Gyoza - 5 Pieces", "type": "product", "price": {"value": 4300, "currency": "AED"}, "description": "Gyoza Wrapper, Shrimp, Cabbage, Leek, Onion, Garlic, Ginger, Chives, Signature Gyoza Sauce", "photo": "https://deliverect-resizer.imgix.net/R0ApbOO2sC0Bc4nYU8J1FAN7oPtpNyIWHmNjDqJXLJo/rt:fill/g:ce/el:0/cb:fc0092ba17d94a4fa9", "inStock": false, "consumableTags": []}
+        ]}
+      ]}
+    }
+  }
+}
