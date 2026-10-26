@@ -41,7 +41,7 @@
       "tagline": "Order online from Sushi Art for delivery or pickup in Riyadh.",
       "tagline_ar": "اطلب أونلاين من سوشي آرت للتوصيل أو الاستلام في الرياض.",
       "extra_languages": ["ar"],
-      "meta_override_ar": "ar_XX",
+      "meta_override_ar": "ar_AR",
       "exclude_categories": [],
       "new_categories": [],
       "beverage_categories": ["Water & Soft Drinks"]
