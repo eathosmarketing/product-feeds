@@ -1,0 +1,48 @@
+name: Update product feeds
+
+on:
+  schedule:
+    # 1st of every month at 06:17 Dubai time (02:17 UTC)
+    - cron: "17 2 1 * *"
+  # Adds a "Run workflow" button so you can refresh right after a menu change
+  workflow_dispatch:
+    inputs:
+      brand:
+        description: "Brand key to update (leave empty for all brands)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate feeds
+        run: |
+          if [ -n "${{ github.event.inputs.brand }}" ]; then
+            python generate_feeds.py --brand "${{ github.event.inputs.brand }}"
+          else
+            python generate_feeds.py
+          fi
+
+      - name: Save updated feeds
+        if: always()
+        run: |
+          git config user.name "feed-bot"
+          git config user.email "feed-bot@users.noreply.github.com"
+          git add feeds
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Feed update $(date -u +'%Y-%m-%d')"
+            git push
+          fi
