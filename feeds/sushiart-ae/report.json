@@ -1,0 +1,24 @@
+{
+  "brand": "Sushi Art",
+  "generated_at": "2026-10-26 08:32 UTC",
+  "branches_read": "10/11",
+  "products": 162,
+  "in_stock": 162,
+  "out_of_stock": 0,
+  "excluded": [
+    "Diet Pepsi (keyword: Pepsi)",
+    "Diet Seven Up (keyword: Seven Up)",
+    "Imported Mineral Water Large (keyword: Mineral Water)",
+    "Imported Mineral Water Small (keyword: Mineral Water)",
+    "Local Mineral Water Small (keyword: Mineral Water)",
+    "Pepsi (keyword: Pepsi)",
+    "Sparkling Water Large (keyword: Sparkling Water)",
+    "Sparkling Water Small (keyword: Sparkling Water)"
+  ],
+  "warnings": [
+    "Branch skipped (disabled online): Sushi Art - JVC"
+  ],
+  "changes": {
+    "first_run": true
+  }
+}
