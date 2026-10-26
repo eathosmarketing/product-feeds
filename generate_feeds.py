@@ -159,7 +159,7 @@ def _merge_menu(products, menu, outlet_slug, outlet_name, warnings):
         for it in cat.get("items") or []:
             if it.get("type") not in (None, "product"):
                 continue
-            key = it.get("plu") or it["id"]
+            key = it["id"]
             price = (it.get("price") or {})
             p = products.get(key)
             if p is None:
