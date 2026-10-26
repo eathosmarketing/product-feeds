@@ -1,0 +1,27 @@
+{
+  "languages": [
+    "en",
+    "ar"
+  ],
+  "brand": "Sushi Art",
+  "generated_at": "2026-10-26 12:01 UTC",
+  "branches_read": "3/3",
+  "products": 135,
+  "in_stock": 135,
+  "out_of_stock": 0,
+  "excluded": [
+    "Diet Pepsi (keyword: Pepsi)",
+    "Diet Seven Up (keyword: Seven Up)",
+    "IMPORTED MINERAL Large (keyword: MINERAL)",
+    "IMPORTED MINERAL WATER Small (keyword: MINERAL WATER)",
+    "LOCAL MINERAL WATER Small (keyword: MINERAL WATER)",
+    "Pepsi (keyword: Pepsi)",
+    "SPARKLING WATER Large (keyword: SPARKLING WATER)",
+    "SPARKLING WATER Small (keyword: SPARKLING WATER)",
+    "Seven Up (keyword: Seven Up)"
+  ],
+  "warnings": [],
+  "changes": {
+    "first_run": true
+  }
+}
