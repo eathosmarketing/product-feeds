@@ -1,0 +1,66 @@
+{
+  "_help": "One entry per brand. Set enabled=false to skip a brand. See README.md for what each field does.",
+  "utm": {
+    "google": "utm_source=google&utm_medium=cpc&utm_campaign=shopping_feed",
+    "meta": "utm_source=meta&utm_medium=paid_social&utm_campaign=catalog_feed"
+  },
+  "min_product_ratio": 0.6,
+  "_exclude_help": "Products whose NAME contains any of these words/phrases (whole words, any case) are left out of every brand's feed. Add exclude_name_keywords inside a brand for brand-only rules.",
+  "exclude_name_keywords": [
+    "pepsi", "coke", "coca-cola", "coca cola", "cola", "7up", "7 up", "seven up",
+    "sprite", "fanta", "mirinda", "mountain dew", "schweppes", "red bull",
+    "mineral water", "mineral", "sparkling water", "still water", "drinking water",
+    "masafi", "al ain", "aquafina", "evian", "perrier", "san pellegrino",
+    "acqua panna", "voss", "fiji water", "oasis water", "nova water",
+    "lipton", "jarritos", "ginger ale", "corona"
+  ],
+  "brands": [
+    {
+      "key": "sushiart-ae",
+      "enabled": true,
+      "brand": "Sushi Art",
+      "domain": "order.sushiart.ae",
+      "business_id": "a08ae860-2057-422e-bc8f-780515b46a73",
+      "ordering_mode": "delivery",
+      "sales_channel": "webordering",
+      "link_outlet_slug": "693694883e311f2db404b740",
+      "tagline": "Order online from Sushi Art for delivery or pickup across Dubai and Abu Dhabi.",
+      "exclude_categories": [],
+      "new_categories": ["New On The Menu"],
+      "beverage_categories": ["Drinks"]
+    },
+    {
+      "key": "sushiart-ksa",
+      "enabled": true,
+      "brand": "Sushi Art",
+      "brand_ar": "سوشي آرت",
+      "domain": "order.sushiart.sa",
+      "business_id": "a11fe931-2355-4984-8402-783366a7cf6b",
+      "ordering_mode": "delivery",
+      "sales_channel": "webordering",
+      "link_outlet_slug": "69b7f631a664e8c6a1fc109d",
+      "tagline": "Order online from Sushi Art for delivery or pickup in Riyadh.",
+      "tagline_ar": "اطلب أونلاين من سوشي آرت للتوصيل أو الاستلام في الرياض.",
+      "extra_languages": ["ar"],
+      "meta_override_ar": "ar_AR",
+      "exclude_categories": [],
+      "new_categories": [],
+      "beverage_categories": ["Water & Soft Drinks"]
+    },
+    {
+      "key": "tortilla-ae",
+      "enabled": true,
+      "brand": "Tortilla",
+      "domain": "order.tortillaarabia.com",
+      "business_id": "a18cd583-4230-4929-8dc0-2d764ca2e146",
+      "ordering_mode": "delivery",
+      "sales_channel": "webordering",
+      "link_outlet_slug": "69df9e5459682ca471d1d7a0",
+      "tagline": "Order California burritos and tacos online from Tortilla for delivery or pickup across Dubai and Abu Dhabi.",
+      "exclude_categories": ["Corona Cero Burrito Bundle (Non Alcoholic)"],
+      "new_categories": ["Autumn Specials – Limited time", "New arrivals- Protein Packed", "Lite Section - New"],
+      "beverage_categories": ["Drinks"],
+      "vegetarian_label": false
+    }
+  ]
+}

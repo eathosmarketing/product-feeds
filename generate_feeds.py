@@ -339,7 +339,8 @@ def build_rows(brand, products, overrides, utm, global_keywords=(), lang="en", t
             "custom_label_0": p["category"],
             "custom_label_1": price_band(p["price_minor"]),
             "custom_label_2": "new" if p["category"].lower() in new_cats else "core",
-            "custom_label_3": "vegetarian" if p["vegetarian"] else "",
+            "custom_label_3": ("vegetarian" if p["vegetarian"]
+                               and brand.get("vegetarian_label", True) else ""),
         })
     return rows, excluded
 
@@ -499,7 +500,7 @@ def run_brand(brand, cfg, make_client, out_root, log):
             with open(os.path.join(out_dir, f"meta_{lang}.csv"), "w", encoding="utf-8",
                       newline="") as f:
                 f.write(render_meta_language_csv(
-                    lrows, brand.get(f"meta_override_{lang}", f"{lang}_XX")))
+                    lrows, brand.get(f"meta_override_{lang}", f"{lang}_AR" if lang == "ar" else f"{lang}_XX")))
             languages_written.append(lang)
             log(f"  wrote {lang} feeds ({len(lrows)} products)")
         except Exception as e:  # a failed translation keeps last month's files
