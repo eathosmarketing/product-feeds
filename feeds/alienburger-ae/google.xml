@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+  <channel>
+    <title>Alien Burger product feed</title>
+    <link>https://order.chatfood.io/</link>
+    <description>Alien Burger menu items for Shopping ads</description>
+    <item>
+      <g:id>896712165875128805</g:id>
+      <title>Boom Fries</title>
+      <description>An Alien special: crispy French fries with our secret boom sauce, chopped chicken tenders, melted cheese &amp; jalapeos. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712165875128805?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/boom-fries_555f533176a1bb3f9a6726b063c8b6e7.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Appetizer</g:product_type>
+      <g:custom_label_0>Appetizer</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712165510225501</g:id>
+      <title>Chicken Tenders</title>
+      <description>3 crispy chicken tenders served with our homemade honey mustard sauce. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712165510225501?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/chicken-tenders_07c8bccb6b2b816112c9b7f197b73353.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>25.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Appetizer</g:product_type>
+      <g:custom_label_0>Appetizer</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712164444872484</g:id>
+      <title>Chicken Wrap</title>
+      <description>Crispy Chicken Tenders Wrapped in a Flaky Paratha, Special Cheese Sauce, Oman Chips, American Cheese &amp; Pickled Jalapeno. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712164444872484?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/chicken-wrap_3aeed20e8a26531c2757d25970927cc1.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>18.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Appetizer</g:product_type>
+      <g:custom_label_0>Appetizer</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712164595866757</g:id>
+      <title>Corn Ribs</title>
+      <description>4 pieces of corn ribs seasoned with our signature Cajun spice mix and fresh lime. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712164595866757?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/corn-ribs_c04cdff0aad1e45753295f64f3cbd7b4.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>22.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Appetizer</g:product_type>
+      <g:custom_label_0>Appetizer</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712165757686128</g:id>
+      <title>Dirty Fries</title>
+      <description>Crispy French fries topped with our signature sauce, truffle sauce, minced beef, crispy bacon bites, parsley, and crispy shallots. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712165757686128?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/dirty-fries_a952fbb7ae7c087972e7e6cceaf38c62.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>37.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Appetizer</g:product_type>
+      <g:custom_label_0>Appetizer</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712165636054007</g:id>
+      <title>Fries</title>
+      <description>Crispy French fries. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712165636054007?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/fries_624704139ded15e3451ad4c89cc212da.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>17.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Appetizer</g:product_type>
+      <g:custom_label_0>Appetizer</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712164709112537</g:id>
+      <title>Mac&amp;Cheese Balls</title>
+      <description>Our creamy mac&amp;cheese breaded and fried to golden perfection for the perfect bite-sized side dish, served with creamy garlic mayo. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712164709112537?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/maccheese-balls_062d2d84aae904e071dcf6a954f754ac.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>25.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Appetizer</g:product_type>
+      <g:custom_label_0>Appetizer</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712165396978024</g:id>
+      <title>Truffle fries</title>
+      <description>Crispy Fries topped with truffle mayo, parmesan cheese and spring onions. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712165396978024?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/truffle-fries_6a1b903bb644a16d4577b87bb0cb1956.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>28.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Appetizer</g:product_type>
+      <g:custom_label_0>Appetizer</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>997474031290684297</g:id>
+      <title>BYO Burger</title>
+      <description>Create your, your way. Choose your bun, protein, toppings and sauces for a delicious, out-of-this-world creation. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/997474031290684297?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/byo-burger_ab088163472f552a95fac75d25a0ed69.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>35.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Build Your Own Burger</g:product_type>
+      <g:custom_label_0>Build Your Own Burger</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712178923606278</g:id>
+      <title>BBQ Burger combo</title>
+      <description>Wagyu patty, beef bacon slices, American cheese, sauteed onions, dill pickles drizzled with BBQ sauce &amp; garlic mayo. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712178923606278?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/bbq-burger-combo_aa48e8dc6a338105a7f8fde6ec58d274.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>59.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Combos</g:product_type>
+      <g:custom_label_0>Combos</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712178067968879</g:id>
+      <title>Buffalo chicken combo</title>
+      <description>Crispy buffalo chicken breast, American cheese, some veg slaw and ranch sauce. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712178067968879?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/buffalo-chicken-combo_39184fff8ff74716efb9e6914fddc6b9.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>52.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Combos</g:product_type>
+      <g:custom_label_0>Combos</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712178294462749</g:id>
+      <title>Crispy Chicken Burger combo</title>
+      <description>Crispy chicken breast, American cheese, veg slaw &amp; ranch sauce. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712178294462749?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/crispy-chicken-burger-combo_b87c34e1ac8dc1af5a01cce7812a5bac.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>49.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Combos</g:product_type>
+      <g:custom_label_0>Combos</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712182593625036</g:id>
+      <title>Grilled Chicken Burger Combo</title>
+      <description>Grilled chicken breast topped with lettuce, sliced tomato, onion, and pickles, topped with American cheese and a roasted honey garlic mayo. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712182593625036?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/grilled-chicken-burger-combo_984718c8868c175c628a79266746d6bf.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>53.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Combos</g:product_type>
+      <g:custom_label_0>Combos</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712182228721117</g:id>
+      <title>The Alien Burger combo</title>
+      <description>Double Wagyu patty, American cheese, crispy onion rings, dill pickles and our special sauce. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712182228721117?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/the-alien-burger-combo_96022fd7343f5c88ca16183080d13432.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>76.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Combos</g:product_type>
+      <g:custom_label_0>Combos</g:custom_label_0>
+      <g:custom_label_1>60_to_100</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712182790754905</g:id>
+      <title>The Classic Cheese Burger combo</title>
+      <description>Wagyu patty, American cheese, caramelized onions, dill pickles and our special sauce. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712182790754905?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/the-classic-cheese-burger-combo_5ec7839f364674331997512e418015e0.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>52.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Combos</g:product_type>
+      <g:custom_label_0>Combos</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712182409073043</g:id>
+      <title>The Juicy lucy Burger Combo</title>
+      <description>A juicy Wagyu Beef patty stuffed with gooey cheese, topped with an extra slice of cheese, fried pickled onions, dill pickles, beef bacon, BBQ and ranch sauce on a soft potato bun. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712182409073043?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/the-juicy-lucy-burger-combo_bb081bd058d07a7295414d0780913866.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>66.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Combos</g:product_type>
+      <g:custom_label_0>Combos</g:custom_label_0>
+      <g:custom_label_1>60_to_100</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712178713892638</g:id>
+      <title>Truff Burger combo</title>
+      <description>A juicy wagyu beef patty with mushroom jam, truffle mayo, American cheese, topped with crispy shallots. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712178713892638?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/truff-burger-combo_2ec11a3a1a581a40f4795912d5334793.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>59.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Combos</g:product_type>
+      <g:custom_label_0>Combos</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712182966915821</g:id>
+      <title>UFO Burger combo</title>
+      <description>Juicy wagyu beef patty topped with molten emmental &amp; American cheese, garlic mayo, bacon jam all pressed inside a soft brioche bun. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712182966915821?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/ufo-burger-combo_84397166874567f56ceaf0cbd33f1ec5.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>58.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Combos</g:product_type>
+      <g:custom_label_0>Combos</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712179124933018</g:id>
+      <title>Vegan burger combo</title>
+      <description>A juicy, plant based SwitchTM patty with homemade vegan mayo, vegan cheese, caramelized onions &amp; pickles in a soft potato bun, served with French fries &amp; your choice of water or soft drink. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712179124933018?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/vegan-burger-combo_a173c3b37ce308d4c909b7c9f3d29bd2.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>59.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Combos</g:product_type>
+      <g:custom_label_0>Combos</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>983267679223812530</g:id>
+      <title>Choco Chunk Cookie</title>
+      <description>Choco Chunk Cookie from the Alien Burger Cookies &amp; More menu. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/983267679223812530?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/choco-chunk-cookie_4cc5015bec91891b7f0b7b9ce97b0e79.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>18.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Cookies &amp; More</g:product_type>
+      <g:custom_label_0>Cookies &amp; More</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>983267679437722489</g:id>
+      <title>Red Velvet Cookie</title>
+      <description>Red Velvet Cookie from the Alien Burger Cookies &amp; More menu. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/983267679437722489?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/red-velvet-cookie_bb7844c4c4f22b503a718312cf3194dc.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>18.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Cookies &amp; More</g:product_type>
+      <g:custom_label_0>Cookies &amp; More</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>983267679328672748</g:id>
+      <title>Triple Chocolate Cookie</title>
+      <description>Triple Chocolate Cookie from the Alien Burger Cookies &amp; More menu. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/983267679328672748?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/triple-chocolate-cookie_c8c4980113505b7573a74fb0d2c203db.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>18.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Cookies &amp; More</g:product_type>
+      <g:custom_label_0>Cookies &amp; More</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712187454823358</g:id>
+      <title>Kids Meal Cheeseburger</title>
+      <description>Little Classic Beef Burger with American Cheese &amp; Ketchup, and a Side of French Fries &amp; Your Choice of Juice. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712187454823358?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/kids-meal-cheeseburger_b7030997138cf11ba4570e953d9b7b75.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>38.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Little Alien Meals</g:product_type>
+      <g:custom_label_0>Little Alien Meals</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712187647762001</g:id>
+      <title>Kids Meal Chicken Burger</title>
+      <description>Little Crispy Chicken Burger with American Cheese, Ketchup &amp; Mayo, and a Side of French Fries &amp; Your Choice of Juice. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712187647762001?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/kids-meal-chicken-burger_3139f65b3850525e787ba738abd82762.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>38.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Little Alien Meals</g:product_type>
+      <g:custom_label_0>Little Alien Meals</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712187857477407</g:id>
+      <title>Kids Meal Tenders</title>
+      <description>Kids Meal Tenders from the Alien Burger Little Alien Meals menu. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712187857477407?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/kids-meal-tenders_f03d4afc31c646d97c2af7fd667ae0a6.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>38.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Little Alien Meals</g:product_type>
+      <g:custom_label_0>Little Alien Meals</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712174372787105</g:id>
+      <title>Chocolate Milkshake</title>
+      <description>Chocolate Milkshake. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712174372787105?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/chocolate-milkshake_fbab482890cfda96ff2f99a546aa66e8.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>26.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>413</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Milkshakes</g:product_type>
+      <g:custom_label_0>Milkshakes</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712174242765172</g:id>
+      <title>Classic Vanilla</title>
+      <description>Classic Vanilla. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712174242765172?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/classic-vanilla_66495433deaa7837881ff32b8960fea8.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>26.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>413</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Milkshakes</g:product_type>
+      <g:custom_label_0>Milkshakes</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>983267678854714305</g:id>
+      <title>Strawberry milkshake</title>
+      <description>Strawberry Milkshake. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/983267678854714305?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/strawberry-milkshake_bc5e67a019ee71a24140c160c374c41d.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>26.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>413</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Milkshakes</g:product_type>
+      <g:custom_label_0>Milkshakes</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712174129517195</g:id>
+      <title>The Perfect Peanut</title>
+      <description>The Perfect Peanut. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712174129517195?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/the-perfect-peanut_4474472f49e8dedb2a9ee9c9a16744be.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>26.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>413</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Milkshakes</g:product_type>
+      <g:custom_label_0>Milkshakes</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>983267650668992358</g:id>
+      <title>Chocolate Dot Cake</title>
+      <description>Layered chocolate sponge cake and frosting, entirely coated in a thick, even layer of tiny round sprinkles. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/983267650668992358?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/chocolate-dot-cake_bbaeb6f362ae111c0a82b029e9451554.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; New Drops</g:product_type>
+      <g:custom_label_0>New Drops</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>new</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>983267652371878523</g:id>
+      <title>Vanilla Dot Cake</title>
+      <description>Layered vanilla sponge cake and frosting, entirely coated in a thick, even layer of tiny round sprinkles. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/983267652371878523?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/vanilla-dot-cake_e0499518d84a621fcc18493bf1308805.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; New Drops</g:product_type>
+      <g:custom_label_0>New Drops</g:custom_label_0>
+      <g:custom_label_1>under_30</g:custom_label_1>
+      <g:custom_label_2>new</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>1004401909672582519</g:id>
+      <title>SS Duo Box</title>
+      <description>Customizable Box for 2! Choose from 2 sets of your favorite Alien Burger sliders, and 2 of your favorite sides. Every box comes with a Scratch &amp; Win card, giving you the chance to win some big prizes!. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/1004401909672582519?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/ss-duo-box_d0f258bfa29b435703a75c8e31b73e1b.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Scratsh &amp; Win! With Every Order</g:product_type>
+      <g:custom_label_0>Scratsh &amp; Win! With Every Order</g:custom_label_0>
+      <g:custom_label_1>60_to_100</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>1004401909857128625</g:id>
+      <title>Solo Slider Box</title>
+      <description>2 juicy sliders served with fries and your choice of sauce. Every box comes with a Scratch &amp; Win card, giving you the chance to win some big prizes!. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/1004401909857128625?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/solo-slider-box_89c1fec9a9044833bfab2ba757531908.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>47.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Scratsh &amp; Win! With Every Order</g:product_type>
+      <g:custom_label_0>Scratsh &amp; Win! With Every Order</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>1004401910029096292</g:id>
+      <title>Solo Tender Box</title>
+      <description>4 crispy chicken tenders served with fries and your choice of sauce. Every box comes with a Scratch &amp; Win card, giving you the chance to win some big prizes!. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/1004401910029096292?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/solo-tender-box_b7ccbe341e004245e895719bb0622374.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>42.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Scratsh &amp; Win! With Every Order</g:product_type>
+      <g:custom_label_0>Scratsh &amp; Win! With Every Order</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712174645416319</g:id>
+      <title>Stellar Sides Box</title>
+      <description>a Sharing Box of your favorite Alien Burger sides. Choose 4 from our crispy and juicy appetizers. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712174645416319?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/stellar-sides-box_dca1acbd04dce6b80b5f17f4171f5ff4.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>72.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Sharing Boxes</g:product_type>
+      <g:custom_label_0>Sharing Boxes</g:custom_label_0>
+      <g:custom_label_1>60_to_100</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712175001932907</g:id>
+      <title>Supernova Slider Box</title>
+      <description>Selection of 12 sliders, fries and sauces (Alien sauce, truffle mayo, ketchup). Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712175001932907?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/supernova-slider-box_d97578d3da73e902977fc85ad7c338ae.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>219.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Sharing Boxes</g:product_type>
+      <g:custom_label_0>Sharing Boxes</g:custom_label_0>
+      <g:custom_label_1>100_plus</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712169587089357</g:id>
+      <title>BBQ Burger</title>
+      <description>A juicy, Wagyu beef patty, beef bacon strips, American cheese, sautted onions &amp; dill pickles finished with BBQ sauce &amp; garlic mayo. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712169587089357?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/bbq-burger_59d82085e61e8c4b348bec9e0c61be95.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>44.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Universal Burgers Beef</g:product_type>
+      <g:custom_label_0>Universal Burgers Beef</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712166550411509</g:id>
+      <title>Classic Cheeseburger</title>
+      <description>A juicy, Wagyu beef patty, American cheese, caramelized onions, dill pickles &amp; our secret Alien sauce. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712166550411509?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/classic-cheeseburger_dca3d142f4b6b977d7e9dd126d95fa7f.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>34.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Universal Burgers Beef</g:product_type>
+      <g:custom_label_0>Universal Burgers Beef</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712166130979130</g:id>
+      <title>Juicy Lucy Burger</title>
+      <description>A juicy wagyu beef patty stuffed with gooey cheese, topped with an extra slice of cheese, fried pickled onions, dill pickles, beef bacon, BBQ and ranch sauce on a soft potato bun. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712166130979130?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/juicy-lucy-burger_790a226019f4103fd3480f245c403ce1.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>48.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Universal Burgers Beef</g:product_type>
+      <g:custom_label_0>Universal Burgers Beef</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712170195261989</g:id>
+      <title>OG Smash</title>
+      <description>Double Thin Smashed Patty, Double American Cheese, Ketchup &amp; Mustard, Diced Onions &amp; Pickles, in a Brioche Bun. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712170195261989?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/og-smash_2850abe28cc126929eb708d909e43beb.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>34.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Universal Burgers Beef</g:product_type>
+      <g:custom_label_0>Universal Burgers Beef</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712165988375908</g:id>
+      <title>The Ufo Burger</title>
+      <description>Juicy wagyu patty topped with molten Emmental &amp; American cheese, garlic mayo, bacon jam, all pressed inside a soft brioche bun. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712165988375908?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/the-ufo-burger_75ffadebab1820396bc2e37262828d6e.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>38.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Universal Burgers Beef</g:product_type>
+      <g:custom_label_0>Universal Burgers Beef</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712169981352495</g:id>
+      <title>The Alien Burger</title>
+      <description>Double Wagyu patty, American cheese, crispy onion rings, dill pickles and our special sauce. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712169981352495?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/the-alien-burger_c782f1b124c739502978e7cd6f1fb0a7.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>59.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Universal Burgers Beef</g:product_type>
+      <g:custom_label_0>Universal Burgers Beef</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712169780027239</g:id>
+      <title>Truff Burger</title>
+      <description>A juicy wagyu beef patty with mushroom jam, truffle mayo, American cheese, topped with crispy shallots. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712169780027239?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/truff-burger_555c0c375a54b2ea0623d675be56e871.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>42.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Universal Burgers Beef</g:product_type>
+      <g:custom_label_0>Universal Burgers Beef</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712175182290248</g:id>
+      <title>Vegan Burger</title>
+      <description>a juicy, plant based SwitchTM patty with homemade vegan mayo, vegan cheese, caramelized onions &amp; pickles in a soft potato bun. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712175182290248?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/vegan-burger_e703d9f5131717bdae3d8a2f427949b7.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>49.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Universal Burgers Beef</g:product_type>
+      <g:custom_label_0>Universal Burgers Beef</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712187270272034</g:id>
+      <title>Buffalo Chicken Burger</title>
+      <description>Crispy buffalo chicken breast, American cheese, veg slaw &amp; ranch sauce. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712187270272034?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/buffalo-chicken-burger_e9b7cc45106707b82635fed6ae6f3fce.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>38.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Universal Burgers Chicken</g:product_type>
+      <g:custom_label_0>Universal Burgers Chicken</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712186934727108</g:id>
+      <title>Crispy Chicken Burger</title>
+      <description>Crispy chicken breast, American cheese, veg slaw &amp; ranch sauce. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712186934727108?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/crispy-chicken-burger_058e544f00ce609799762c0c02a0372e.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>34.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Universal Burgers Chicken</g:product_type>
+      <g:custom_label_0>Universal Burgers Chicken</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+    <item>
+      <g:id>896712187098308028</g:id>
+      <title>Grilled Chicken Burger</title>
+      <description>Grilled chicken breast topped with lettuce, sliced tomato, onion, and pickles, topped with American cheese and a roasted honey garlic mayo. Order Alien Burger online for delivery or pickup in Dubai.</description>
+      <link>https://order.chatfood.io/alien-burger/items/896712187098308028?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=shopping_feed</link>
+      <g:image_link>https://storage.googleapis.com/production-legacy-chatfood-api/static/alien-burger/menu/grilled-chicken-burger_5266419fd4410e9e33899cce0e62570d.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>38.00 AED</g:price>
+      <g:brand>Alien Burger</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>422</g:google_product_category>
+      <g:product_type>Alien Burger &gt; Universal Burgers Chicken</g:product_type>
+      <g:custom_label_0>Universal Burgers Chicken</g:custom_label_0>
+      <g:custom_label_1>30_to_60</g:custom_label_1>
+      <g:custom_label_2>core</g:custom_label_2>
+    </item>
+  </channel>
+</rss>

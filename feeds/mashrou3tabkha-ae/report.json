@@ -1,0 +1,24 @@
+{
+  "languages": [
+    "en"
+  ],
+  "brand": "Mashrou3 Tabkha",
+  "generated_at": "2026-11-18 12:26 UTC",
+  "branches_read": "1/1",
+  "products": 54,
+  "in_stock": 54,
+  "out_of_stock": 0,
+  "excluded": [
+    "7UP (keyword: 7UP)",
+    "Diet 7UP (keyword: 7UP)",
+    "Diet Pepsi (keyword: Pepsi)",
+    "Mirinda (keyword: Mirinda)",
+    "Mountain Dew (keyword: Mountain Dew)",
+    "Pepsi (keyword: Pepsi)",
+    "Water (keyword: Water)"
+  ],
+  "warnings": [],
+  "changes": {
+    "first_run": true
+  }
+}
