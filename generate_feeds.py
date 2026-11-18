@@ -103,6 +103,39 @@ class DeliverectClient:
                          salesChannel=self.brand["sales_channel"])
 
 
+class ChatFoodClient:
+    """Reads the public storefront API that ChatFood ordering pages (order.chatfood.io) use."""
+
+    def __init__(self, brand, lang=None, timeout=30, retries=3):
+        self.brand = brand
+        self.lang = lang
+        self.base = "https://api.chatfood.io/"
+        self.timeout = timeout
+        self.retries = retries
+
+    _get = DeliverectClient._get
+
+    def business_menu(self):
+        return self._get(f"storefront/businesses/{self.brand['business_id']}/menu")
+
+    def outlets(self):
+        res = self._get(f"api/v1/businesses/{self.brand['business_id']}/outlets")
+        return res.get("data", res) if isinstance(res, dict) else res
+
+
+class ChatFoodFixtureClient:
+    """Offline stand-in for ChatFoodClient (testing)."""
+
+    def __init__(self, fixture, lang=None):
+        self.f = fixture
+
+    def business_menu(self):
+        return self.f["menu"]
+
+    def outlets(self):
+        return self.f.get("outlets", [])
+
+
 class FixtureClient:
     """Offline stand-in that serves saved API responses (for testing)."""
 
@@ -158,6 +191,60 @@ def collect(brand, client, log):
         raise RuntimeError("Could not read any branch menu. Feed NOT updated.")
     log(f"  read {branches_ok}/{len(outlets)} branches, {len(products)} unique products")
     return products, warnings, branches_ok, len(outlets), menus_read
+
+
+def clean_category(name):
+    """'👽🍔 Scratsh & Win! With Every Order 🍔👽' -> 'Scratsh & Win! With Every Order'."""
+    name = re.sub(r"[^\w\s&,.'()!?/+\-–]", "", name or "")
+    return re.sub(r"\s+", " ", name).strip()
+
+
+def collect_chatfood(brand, client, log):
+    """ChatFood brands share one menu across branches. The brand-wide storefront menu has
+    no per-branch stock flag, so every listed item is treated as in stock."""
+    warnings = []
+    menu = client.business_menu()
+    cats = (menu or {}).get("categories") or []
+    if not cats:
+        raise RuntimeError("ChatFood returned an empty menu. Feed NOT updated.")
+    try:
+        n_outlets = len([o for o in client.outlets()
+                         if str(o.get("status", "Active")).lower() == "active"])
+    except Exception as e:
+        n_outlets = 0
+        warnings.append(f"Could not read branch list ({e}); menu read anyway")
+    products, seen_names = {}, {}
+    for cat in cats:
+        cat_name = clean_category(cat.get("name"))
+        for it in cat.get("items") or []:
+            key = str(it["id"])
+            if key in products:
+                continue
+            # ChatFood often lists the same dish in a promo category under a second id:
+            # keep one copy per dish name + price so the feed has no duplicates.
+            sig = (re.sub(r"\s+", " ", (it.get("name") or "")).strip().lower(),
+                   it.get("amount", it.get("price")))
+            if sig in seen_names:
+                warnings.append(f"Duplicate dish skipped: '{it.get('name')}' in {cat_name} "
+                                f"(already listed under {seen_names[sig]})")
+                continue
+            seen_names[sig] = cat_name
+            products[key] = {
+                "key": key,
+                "item_id": key,
+                "name": (it.get("name") or "").strip(),
+                "description": (it.get("description") or "").strip(),
+                "price_minor": it.get("amount", it.get("price")),
+                "currency": it.get("currency") or "AED",
+                "category": cat_name,
+                "photo": it.get("photo") or "",
+                "link": f"https://{brand['domain']}/{brand['business_slug']}/items/{key}",
+                "in_stock": True,
+                "branches": set(),
+                "vegetarian": False,
+            }
+    log(f"  read ChatFood menu: {len(products)} unique products, {n_outlets} active branches")
+    return products, warnings, 1, 1, []
 
 
 def collect_texts(client, menus_read):
@@ -321,8 +408,9 @@ def build_rows(brand, products, overrides, utm, global_keywords=(), lang="en", t
         if tagline:
             desc = f"{desc} {tagline}"
 
-        base_link = (f"https://{brand['domain']}/{brand['ordering_mode']}/"
-                     f"{p['link_outlet']}/menus/{p['menu_slug']}?item-id={p['item_id']}")
+        base_link = p.get("link") or (
+            f"https://{brand['domain']}/{brand['ordering_mode']}/"
+            f"{p['link_outlet']}/menus/{p['menu_slug']}?item-id={p['item_id']}")
         rows.append({
             "id": p["key"],
             "title": title,
@@ -346,7 +434,9 @@ def build_rows(brand, products, overrides, utm, global_keywords=(), lang="en", t
 
 
 def _with_utm(link, utm):
-    return f"{link}&{utm}" if utm else link
+    if not utm:
+        return link
+    return f"{link}{'&' if '?' in link else '?'}{utm}"
 
 
 def render_google_xml(brand, rows):
@@ -463,7 +553,8 @@ def write_changelog(out_dir, stamp, changes, total):
 # --------------------------------------------------------------------------
 def run_brand(brand, cfg, make_client, out_root, log):
     log(f"[{brand['key']}] {brand['brand']} - {brand['domain']}")
-    products, warnings, ok, total, menus_read = collect(brand, make_client(None), log)
+    collector = collect_chatfood if brand.get("platform") == "chatfood" else collect
+    products, warnings, ok, total, menus_read = collector(brand, make_client(None), log)
     overrides = load_overrides(brand["key"])
     utm, keywords = cfg.get("utm", {}), cfg.get("exclude_name_keywords", [])
     rows, excluded = build_rows(brand, products, overrides, utm, keywords)
@@ -545,10 +636,13 @@ def main():
 
     failed = []
     for b in brands:
+        chatfood = b.get("platform") == "chatfood"
         if fixture:
-            make_client = lambda lang, b=b: FixtureClient(fixture[b["key"]], lang)
+            fx = ChatFoodFixtureClient if chatfood else FixtureClient
+            make_client = lambda lang, b=b, fx=fx: fx(fixture[b["key"]], lang)
         else:
-            make_client = lambda lang, b=b: DeliverectClient(b, lang)
+            api = ChatFoodClient if chatfood else DeliverectClient
+            make_client = lambda lang, b=b, api=api: api(b, lang)
         try:
             run_brand(b, cfg, make_client, args.out, print)
         except Exception as e:

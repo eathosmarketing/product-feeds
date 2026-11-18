@@ -61,6 +61,36 @@
       "new_categories": ["Autumn Specials – Limited time", "New arrivals- Protein Packed", "Lite Section - New"],
       "beverage_categories": ["Drinks"],
       "vegetarian_label": false
+    },
+    {
+      "key": "alienburger-ae",
+      "enabled": true,
+      "platform": "chatfood",
+      "brand": "Alien Burger",
+      "domain": "order.chatfood.io",
+      "business_slug": "alien-burger",
+      "business_id": "362262d0-3c95-4d0a-b651-8809e4296793",
+      "tagline": "Order Alien Burger online for delivery or pickup in Dubai.",
+      "exclude_categories": ["Dips"],
+      "exclude_name_keywords": ["water"],
+      "new_categories": ["New Drops"],
+      "beverage_categories": ["Beverages", "Milkshakes"],
+      "vegetarian_label": false
+    },
+    {
+      "key": "mashrou3tabkha-ae",
+      "enabled": true,
+      "platform": "chatfood",
+      "brand": "Mashrou3 Tabkha",
+      "domain": "order.chatfood.io",
+      "business_slug": "mashrou3-tabkha",
+      "business_id": "dbac342c-531f-4288-8ab8-63794a9469ee",
+      "tagline": "Order Lebanese home-style dishes from Mashrou3 Tabkha for delivery or pickup across Dubai.",
+      "exclude_categories": [],
+      "exclude_name_keywords": ["water"],
+      "new_categories": ["New Items - Special Edition"],
+      "beverage_categories": ["Drinks"],
+      "vegetarian_label": false
     }
   ]
 }
